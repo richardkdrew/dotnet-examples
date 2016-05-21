@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "web-api", "src\web-api\web-api.xproj", "{9D0E3666-7594-4464-A6EE-180020A5D7B9}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "web-api.test", "test\web-api.test\web-api.test.xproj", "{10A1E775-7634-4442-91B2-DA38A978B64A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DB944C6A-DEB9-4B92-95B3-6889D72FAB0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{9D0E3666-7594-4464-A6EE-180020A5D7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D0E3666-7594-4464-A6EE-180020A5D7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D0E3666-7594-4464-A6EE-180020A5D7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A1E775-7634-4442-91B2-DA38A978B64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A1E775-7634-4442-91B2-DA38A978B64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A1E775-7634-4442-91B2-DA38A978B64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A1E775-7634-4442-91B2-DA38A978B64A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9D0E3666-7594-4464-A6EE-180020A5D7B9} = {E2D292DA-A60A-4F08-B8A1-9AE77775160E}
+		{10A1E775-7634-4442-91B2-DA38A978B64A} = {DB944C6A-DEB9-4B92-95B3-6889D72FAB0B}
 	EndGlobalSection
 EndGlobal
