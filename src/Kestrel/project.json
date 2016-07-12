@@ -2,7 +2,10 @@
   "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true,
-    "debugType": "portable"
+    "debugType": "portable",
+    "copyToOutput": {
+        "include": [ "testCert.pfx" ]
+    }
   },
 
   "dependencies": {
@@ -10,7 +13,8 @@
       "type": "platform",
       "version": "1.0.0"
     },
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-*"
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-*",
+    "Microsoft.AspNetCore.Server.Kestrel.Https": "1.0.0-*"
   },
 
   "frameworks": {
