@@ -13,7 +13,9 @@
             "externalConsole": false,
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_SERVER.URLS": "https://localhost:5001/"
+                "ASPNETCORE_URLS": "https://localhost:5000/",
+                "ASPNETCORE_SSL.CERT": "testCert.pfx",
+                "ASPNETCORE_SSL.CERT.PASSWORD": "testPassword"
             }
         },
         {
