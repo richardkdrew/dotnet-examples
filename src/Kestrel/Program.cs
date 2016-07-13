@@ -9,8 +9,7 @@ namespace Kestrel
             var host = new WebHostBuilder()
                 .UseKestrel(options => {
                     options.UseHttps("testCert.pfx", "testPassword");
-                })
-                .UseUrls("https://localhost:5000")               
+                })           
                 .UseStartup<Startup>()               
                 .Build();
 
